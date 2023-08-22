@@ -41,6 +41,7 @@ const [loading, setLoading] = useState(true)
   // make api call here
 
 useEffect(()=> {
+  console.log('Naval kishore')
   const emailAddress = 'navalsunar@gmail.com'
   const response = getDetails(emailAddress);
   response.then(res => {
