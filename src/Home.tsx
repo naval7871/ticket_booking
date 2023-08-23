@@ -5,7 +5,7 @@ import { AppContext, tabValueEnum } from './App';
 import TheatreListsPage from './Theatres/TheatresListsPage';
 
 function Home(){
-    console.log('Home2')
+    console.log('Home Sneha')
     const {tabValue} = useContext(AppContext)
 
 return(<>
